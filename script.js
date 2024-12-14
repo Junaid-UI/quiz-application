@@ -75,7 +75,7 @@ window.addEventListener('load', () => {
 
 
                         attemptedQuestions.add(questionIndex);
-                        console.log(attemptedQuestions);
+                        
                         
                         
                         AttemptQuestion.innerHTML = `${attemptedQuestions.size}/10`
@@ -190,7 +190,7 @@ window.addEventListener('load', () => {
 
 
             close.addEventListener('click', () => {
-                location.href = `/error.html`
+                location.href = `/quiz-application/error.html`
                 localStorage.clear();
                 attemptedQuestions.clear();
             })
