@@ -35,7 +35,7 @@ window.addEventListener('load', () => {
     async function getApi() {
         try {
 
-            const data = await fetch('/quiz-application/Api.json')
+            const data = await fetch("/quiz-application/Api.json")
             const finalData = await data.json()
             let currentQuestionIndex = 0
             
