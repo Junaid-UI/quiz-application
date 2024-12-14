@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "question": "What is the correct syntax to define a function in JavaScript?",
+      "options": [
+        "function myFunction()",
+        "function:myFunction()",
+        "myFunction() = function",
+        "def myFunction()"
+      ],
+      "correctAnswer": "function myFunction()"
+    },
+    {
+      "question": "Which method is used to parse a JSON string in JavaScript?",
+      "options": [
+        "JSON.stringify()",
+        "JSON.parse()",
+        "JSON.decode()",
+        "JSON.convert()"
+      ],
+      "correctAnswer": "JSON.parse()"
+    },
+    {
+      "question": "What does `undefined` mean in JavaScript?",
+      "options": [
+        "A variable is not assigned a value",
+        "A variable is assigned a null value",
+        "A variable does not exist",
+        "A variable is declared but not initialized"
+      ],
+      "correctAnswer": "A variable is not assigned a value"
+    },
+    {
+      "question": "Which operator is used for strict equality comparison in JavaScript?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "!=="
+      ],
+      "correctAnswer": "==="
+    },
+    {
+      "question": "How can you add an event listener to a button in JavaScript?",
+      "options": [
+        "button.addEventListener('click', functionName);",
+        "button.addListener('click', functionName);",
+        "button.onClick = functionName;",
+        "addEventListener(button, 'click', functionName);"
+      ],
+      "correctAnswer": "button.addEventListener('click', functionName);"
+    },
+    {
+      "question": "What does `NaN` stand for in JavaScript?",
+      "options": [
+        "Not a Number",
+        "Null and None",
+        "Not Available Number",
+        "No Actual Number"
+      ],
+      "correctAnswer": "Not a Number"
+    },
+    {
+      "question": "Which of the following is a valid way to declare a variable in JavaScript?",
+      "options": [
+        "var x = 10;",
+        "const x = 10;",
+        "let x = 10;",
+        "all of the above"
+      ],
+      "correctAnswer": "all of the above"
+    },
+    {
+      "question": "Which of the following is not a valid JavaScript data type?",
+      "options": [
+        "String",
+        "Boolean",
+        "Character",
+        "Array"
+      ],
+      "correctAnswer": "Character"
+    },
+    {
+      "question": "What does the `push()` method do in JavaScript?",
+      "options": [
+        "Adds an element to the beginning of an array",
+        "Adds an element to the end of an array",
+        "Removes an element from the array",
+        "Creates a new array"
+      ],
+      "correctAnswer": "Adds an element to the end of an array"
+    },
+    {
+      "question": "What is the purpose of the `this` keyword in JavaScript?",
+      "options": [
+        "Refers to the global object",
+        "Refers to the current function",
+        "Refers to the object that owns the function",
+        "Refers to the window object"
+      ],
+      "correctAnswer": "Refers to the object that owns the function"
+    }
+  ]
+}

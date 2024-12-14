@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz-application </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+</head>
+<body>
+    <h1>Question No. <span class="q-no"></span></h1>
+   <div class="content">
+        
+   </div>
+
+    <div class="btn">
+        <button class="back">Back</button>
+        <button class="next">Next</button>
+        <button class="reset-answer">Reset Answers</button>
+        <button class="submit">Submit</button>
+    </div>
+
+    <div class="finalResult">
+        <div class="results">
+            <div class="att">
+                <p class="Attempt-question">You Attempt &nbsp;<span>0/10</span></p>
+                <div class="close"><i class='bx bx-x bx-tada' ></i></div>
+            </div>
+            <div class="answer">
+                <div class="correct"><p>Your Correct Answers <span>6</span></p></div>
+                <div class="incorrect"><p>Your Incorrect Answers <span>4</span></p></div>
+            </div>
+
+            <div class="feedback">
+                <textarea placeholder="Write your feedback here..."></textarea>
+            </div>
+
+            <div class="btn2">
+                <button class="Re-Attempt">Re-Attempt</button>
+                <button class="Give-feedback">Give feedback</button>
+            </div>
+
+        </div>
+
+        <div class="overlay"></div>
+    </div>
+
+</body>
+</html>
